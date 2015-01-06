@@ -1,7 +1,10 @@
 PHP                                                                        NEWS
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-14 Aug 2014, PHP 5.3.29
+7 Jan 2015, PHP 5.3.29 (Security Release)
+- Core:
+  . Fixed bug #68594 (Use after free vulnerability in unserialize()). (fujin)
 
+14 Aug 2014, PHP 5.3.29
 - Core:
   . Fixed bug #66127 (Segmentation fault with ArrayObject unset). (Stas)
   . Fixed bug #67247 (spl_fixedarray_resize integer overflow). (Stas)
